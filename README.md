@@ -1,1 +1,1 @@
-# GS_ITM
+# SELF_STUDY
