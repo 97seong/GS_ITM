@@ -1,0 +1,37 @@
+<!-- 15장 마무리 문제
+프롬프트 창에서 두 수를 입력받아 크기 비교후 더 큰 숫자를 알림창에 표시
+조건
+1. 프롬프트 창에서 입력받은 두 수를 각각 num1, num2 변수에 저장.
+2. 함수 선언시 함수명은 자유 매개변수는 2개 사용
+3. if-else문과 비교 연산자 == 사용
+4. 두 수가 같을 경우 '같습니다.'를 표시 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quiz-2</title>
+</head>
+<body>
+    <script>
+        var num1 = parseInt(prompt("비교할 첫 번째 숫자: "));
+        var num2 = parseInt(prompt("비교할 두 번째 숫자: "));
+
+        bg(num1, num2);
+
+        function bg(x, y){
+            if (x == y){
+                alert("두 수는 같습니다.");
+            }
+            else if (x > y){
+                alert( x + "(이)가 " + y + "보다 큽니다.");
+            }
+            else{
+                alert( y + "(이)가 " + x + "보다 큽니다.");
+            }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!-- 15장 마무리 문제
+사용자에게 두 수를 입력받고 같으면 곱 다를 시 합
+콘솔 창에 표시
+조건
+1. 함수 선언은 function sumMulti(x,y)로 실시
+2. if-else 문을 사용해 두 수 비교
+3. 값 비교는 == 연산자 사용
+4. 콘솔 창에 표시 할때는 console.log()사용 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quiz-1</title>
+</head>
+<body>
+    <script>
+    function sumMulti(x,y){
+        if ( x == y)
+        return x * y;
+        else
+        return x + y;
+    }
+    console.log(sumMulti(5, 10));
+    console.log(sumMulti(10, 10));
+    </script>
+</body>
+
+</html>
